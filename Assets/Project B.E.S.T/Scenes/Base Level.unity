@@ -2622,8 +2622,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bottomHalf: {fileID: 546732792}
   topHalf: {fileID: 1063642285}
-  bottomOpenOffset: {x: 0, y: -3, z: 0}
-  topOpenOffset: {x: 0, y: 3, z: 0}
+  bottomOpenOffset: {x: 0, y: -2.4, z: 0}
+  topOpenOffset: {x: 0, y: 2.5, z: 0}
   speed: 2
   triggerZone: {fileID: 0}
 --- !u!1 &918051579
@@ -80099,11 +80099,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4871807673431759334, guid: fadc02d617e86b74d98aef65ce26ae4c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.79
+      value: -13.07
       objectReference: {fileID: 0}
     - target: {fileID: 4871807673431759334, guid: fadc02d617e86b74d98aef65ce26ae4c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.39
+      value: -2.88
       objectReference: {fileID: 0}
     - target: {fileID: 4871807673431759334, guid: fadc02d617e86b74d98aef65ce26ae4c, type: 3}
       propertyPath: m_LocalPosition.z
