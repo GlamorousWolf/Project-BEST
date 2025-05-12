@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SlidingDoor : MonoBehaviour
+public class SlidingDoorVertical : MonoBehaviour
 {
     public Transform bottomHalf;
     public Transform topHalf;

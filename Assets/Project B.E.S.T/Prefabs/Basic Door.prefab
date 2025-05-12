@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3441679504180058965}
   - component: {fileID: 4622010888319551434}
   m_Layer: 0
-  m_Name: BasicFurniture_0000s_0003s_0000_Side_0 (1)
+  m_Name: topHalf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -143,6 +143,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3150268456005250433}
+  - component: {fileID: 8684172757235094392}
+  - component: {fileID: 8620668479099201463}
   m_Layer: 0
   m_Name: Basic Door
   m_TagString: Untagged
@@ -158,7 +160,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3463773744613093056}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -10.539999, y: 27.749998, z: 0.06396768}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -167,6 +169,61 @@ Transform:
   - {fileID: 1444572550615216509}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &8684172757235094392
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3463773744613093056}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.6108465, y: -1.1561055}
+  m_Size: {x: 3.8257847, y: 4.846179}
+  m_Direction: 0
+--- !u!114 &8620668479099201463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3463773744613093056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 756c303cbd54c0b4195153b087cf454f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bottomHalf: {fileID: 1508387960129276514}
+  topHalf: {fileID: 1444572550615216509}
+  bottomOpenOffset: {x: 0, y: -2.4, z: 0}
+  topOpenOffset: {x: 0, y: 2.5, z: 0}
+  speed: 2
+  triggerZone: {fileID: 0}
 --- !u!1 &8484447504408947348
 GameObject:
   m_ObjectHideFlags: 0
@@ -179,7 +236,7 @@ GameObject:
   - component: {fileID: 2433870727999794222}
   - component: {fileID: 5286161118565031060}
   m_Layer: 0
-  m_Name: BasicFurniture_0000s_0003s_0000_Side_0
+  m_Name: bottomHalf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
