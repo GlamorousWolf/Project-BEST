@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 920c66b819aa6d543bd2f511d7ad88b5
+guid: dbc4f061846b43347b71a9b73b16998f
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      insecteur_0: -8298429886876995529
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
