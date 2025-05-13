@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Red Crawler - Up-Down (Spiked)_0: -2919199431352708181
+      Red Crawler - Up-Down (Spiked)_1: -1218022023187492161
+      Red Crawler - Up-Down (Spiked)_2: -7947382214995354825
+      Red Crawler - Up-Down (Spiked)_3: 3460449292462840781
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

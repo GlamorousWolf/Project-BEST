@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SlidingDoor : MonoBehaviour
+public class SlidingDoorHorizontal : MonoBehaviour
 {
     public Transform leftHalf;
     public Transform rightHalf;
