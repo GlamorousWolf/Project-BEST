@@ -426,6 +426,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &86727019 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 341810992746678211, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+  m_PrefabInstance: {fileID: 1904958140}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &87725667 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 341810992746678211, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+  m_PrefabInstance: {fileID: 1605844702}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &100110846 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1508387960129276514, guid: a3c7fb43788754543b356cb9583b6e7b, type: 3}
@@ -871,6 +881,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8359382593735490541, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
   m_PrefabInstance: {fileID: 1605844702}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &274825369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87725667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 975da563c8f05bf41a52f156eaf4441a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ventDoor: {fileID: 87725667}
 --- !u!1001 &292372120
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1317,7 +1340,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 341810992746678211, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
       propertyPath: m_Name
-      value: ventDoor
+      value: ventDoor2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7377968444121906092, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+      propertyPath: m_Size.y
+      value: 3.483642
+      objectReference: {fileID: 0}
+    - target: {fileID: 7377968444121906092, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.04677391
+      objectReference: {fileID: 0}
+    - target: {fileID: 7377968444121906092, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8359382593735490541, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1362,7 +1397,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 341810992746678211, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1033148676}
   m_SourcePrefab: {fileID: 100100000, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
 --- !u!1 &428090577
 GameObject:
@@ -1848,7 +1886,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 341810992746678211, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
       propertyPath: m_Name
-      value: ventDoor(3)
+      value: ventDoor4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7377968444121906092, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+      propertyPath: m_Size.y
+      value: 2.7843857
+      objectReference: {fileID: 0}
+    - target: {fileID: 7377968444121906092, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.080387115
+      objectReference: {fileID: 0}
+    - target: {fileID: 7377968444121906092, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8359382593735490541, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1893,7 +1943,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 341810992746678211, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2013325518}
   m_SourcePrefab: {fileID: 100100000, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
 --- !u!1 &551146740
 GameObject:
@@ -2406,6 +2459,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1444572550615216509, guid: a3c7fb43788754543b356cb9583b6e7b, type: 3}
   m_PrefabInstance: {fileID: 1656530731}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &824413819 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 341810992746678211, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+  m_PrefabInstance: {fileID: 409982496}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &835033467 stripped
 GameObject:
@@ -2931,17 +2989,17 @@ Transform:
   - {fileID: 69862165}
   - {fileID: 567005595}
   - {fileID: 770097867}
+  - {fileID: 1033148673}
+  - {fileID: 340836764}
+  - {fileID: 2013325515}
   - {fileID: 274825366}
   - {fileID: 1924836721}
   - {fileID: 62645870}
   - {fileID: 1587208995}
-  - {fileID: 2013325515}
   - {fileID: 403759503}
   - {fileID: 748671362}
   - {fileID: 1505988352}
   - {fileID: 1893336754}
-  - {fileID: 1033148673}
-  - {fileID: 340836764}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &934941289
@@ -80081,6 +80139,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8359382593735490541, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
   m_PrefabInstance: {fileID: 409982496}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1033148676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824413819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 975da563c8f05bf41a52f156eaf4441a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ventDoor: {fileID: 824413819}
 --- !u!4 &1043424371 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1444572550615216509, guid: a3c7fb43788754543b356cb9583b6e7b, type: 3}
@@ -80196,11 +80267,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4871807673431759334, guid: fadc02d617e86b74d98aef65ce26ae4c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.1
+      value: 64.39
       objectReference: {fileID: 0}
     - target: {fileID: 4871807673431759334, guid: fadc02d617e86b74d98aef65ce26ae4c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.1
+      value: 40.4
       objectReference: {fileID: 0}
     - target: {fileID: 4871807673431759334, guid: fadc02d617e86b74d98aef65ce26ae4c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -312933,7 +313004,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 341810992746678211, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
       propertyPath: m_Name
-      value: ventDoor(2)
+      value: ventDoor5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7377968444121906092, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+      propertyPath: m_Size.y
+      value: 2.764801
+      objectReference: {fileID: 0}
+    - target: {fileID: 7377968444121906092, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.13757229
+      objectReference: {fileID: 0}
+    - target: {fileID: 7377968444121906092, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8359382593735490541, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -312978,8 +313061,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 341810992746678211, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 274825369}
   m_SourcePrefab: {fileID: 100100000, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+--- !u!1 &1618714546 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 341810992746678211, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+  m_PrefabInstance: {fileID: 6289899750797497163}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1618714550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618714546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 975da563c8f05bf41a52f156eaf4441a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ventDoor: {fileID: 1618714546}
 --- !u!1 &1649826100
 GameObject:
   m_ObjectHideFlags: 0
@@ -313737,6 +313841,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1847354066 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 341810992746678211, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+  m_PrefabInstance: {fileID: 1916090557}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1847354069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847354066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 975da563c8f05bf41a52f156eaf4441a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ventDoor: {fileID: 1847354066}
 --- !u!4 &1869072838 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1508387960129276514, guid: a3c7fb43788754543b356cb9583b6e7b, type: 3}
@@ -313757,7 +313879,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 341810992746678211, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
       propertyPath: m_Name
-      value: ventDoor(2) (1)
+      value: ventDoor6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7377968444121906092, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+      propertyPath: m_Size.y
+      value: 2.5643606
+      objectReference: {fileID: 0}
+    - target: {fileID: 7377968444121906092, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.059317112
+      objectReference: {fileID: 0}
+    - target: {fileID: 7377968444121906092, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8359382593735490541, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -313802,7 +313936,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 341810992746678211, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1924836724}
   m_SourcePrefab: {fileID: 100100000, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
 --- !u!1001 &1916090557
 PrefabInstance:
@@ -313814,7 +313951,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 341810992746678211, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
       propertyPath: m_Name
-      value: ventDoor (1)
+      value: ventDoor3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7377968444121906092, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+      propertyPath: m_Size.y
+      value: 2.822483
+      objectReference: {fileID: 0}
+    - target: {fileID: 7377968444121906092, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.090932846
+      objectReference: {fileID: 0}
+    - target: {fileID: 7377968444121906092, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8359382593735490541, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -313859,7 +314008,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 341810992746678211, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1847354069}
   m_SourcePrefab: {fileID: 100100000, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
 --- !u!1 &1919738879
 GameObject:
@@ -313953,6 +314105,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8359382593735490541, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
   m_PrefabInstance: {fileID: 1904958140}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1924836724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86727019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 975da563c8f05bf41a52f156eaf4441a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ventDoor: {fileID: 86727019}
 --- !u!1 &1939577386
 GameObject:
   m_ObjectHideFlags: 0
@@ -314208,11 +314373,29 @@ MonoBehaviour:
   topOpenOffset: {x: 0, y: 2, z: 0}
   speed: 2
   triggerZone: {fileID: 0}
+--- !u!1 &2010728987 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 341810992746678211, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+  m_PrefabInstance: {fileID: 548905303}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2013325515 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8359382593735490541, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
   m_PrefabInstance: {fileID: 548905303}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2013325518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010728987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 975da563c8f05bf41a52f156eaf4441a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ventDoor: {fileID: 2010728987}
 --- !u!1 &2087349140
 GameObject:
   m_ObjectHideFlags: 0
@@ -314760,7 +314943,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 341810992746678211, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
       propertyPath: m_Name
-      value: ventDoor
+      value: ventDoor1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7377968444121906092, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+      propertyPath: m_Size.y
+      value: 4.6316833
+      objectReference: {fileID: 0}
+    - target: {fileID: 7377968444121906092, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.29255295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7377968444121906092, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8359382593735490541, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -314805,7 +315000,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 341810992746678211, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1618714550}
   m_SourcePrefab: {fileID: 100100000, guid: dad8f7b16a0053049b132a664c4eb2fa, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
