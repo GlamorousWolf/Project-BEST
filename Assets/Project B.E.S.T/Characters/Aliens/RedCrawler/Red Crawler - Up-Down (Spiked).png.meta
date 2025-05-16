@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 45cd0abde566a3f4496ad0b3d405e814
+guid: 1ce0e9583ee1b0d40896b088964932f2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6573628436773275375
-    second: Metal Box_0
+      213: -2919199431352708181
+    second: Red Crawler - Up-Down (Spiked)_0
+  - first:
+      213: -1218022023187492161
+    second: Red Crawler - Up-Down (Spiked)_1
+  - first:
+      213: -7947382214995354825
+    second: Red Crawler - Up-Down (Spiked)_2
+  - first:
+      213: 3460449292462840781
+    second: Red Crawler - Up-Down (Spiked)_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,43 +105,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Metal Box_0
+      name: Red Crawler - Up-Down (Spiked)_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2
         y: 0
-        width: 500
-        height: 500
+        width: 390
+        height: 908
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 119f8bce3c7c5c4a0800000000000000
-      internalID: -6573628436773275375
+      spriteID: ba313b1759bec77d0800000000000000
+      internalID: -2919199431352708181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Crawler - Up-Down (Spiked)_1
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 0
+        width: 390
+        height: 908
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb29e4b5c67b81fe0800000000000000
+      internalID: -1218022023187492161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Crawler - Up-Down (Spiked)_2
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 0
+        width: 390
+        height: 908
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73bd1f48bf935b190800000000000000
+      internalID: -7947382214995354825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Crawler - Up-Down (Spiked)_3
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 0
+        width: 390
+        height: 908
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcbdf781c4cf50030800000000000000
+      internalID: 3460449292462840781
       vertices: []
       indices: 
       edges: []
@@ -160,8 +209,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Metal Box_0: -6573628436773275375
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
